@@ -1,0 +1,17 @@
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+torch = "*"
+torchdata = "0.7.1"
+dgl = {url = "https://data.dgl.ai/wheels/cu121/dgl-1.1.3%2Bcu121-cp310-cp310-manylinux1_x86_64.whl"}
+dgllife = "0.3.2"
+deepchem = "2.7.1"
+rdkit = "2023.3.1"
+numpy = "*"
+matplotlib = "*"
+scikit-learn = {version = "^1.0.0", extras = ["binary"]}
+ipykernel = "^6.29.5"
+networkx = "^3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
