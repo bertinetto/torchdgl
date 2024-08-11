@@ -1,3 +1,9 @@
+[tool.poetry]
+name = "torchdglconfig"
+version = "0.1.0"
+description = "Minimal setup for comp chem with DL"
+authors = ["Luca Bertinetto <luca.bertinetto@gmail.com>"]
+
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
 torch = "*"
